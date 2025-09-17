@@ -1,0 +1,119 @@
+.contact-container {
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fefefe;
+  color: #333;
+}
+
+.contact-heading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.contact-heading span {
+  color: #3a7bd5;
+}
+
+.contact-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.contact-image {
+  width: 320px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-details h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.contact-details p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.contact-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 60px;
+  padding-top: 50px;
+  border-top: 1px solid #ddd;
+}
+
+.footer-branding,
+.footer-links,
+.footer-contact {
+  flex: 1;
+  min-width: 220px;
+}
+
+.footer-branding h3 {
+  font-size: 22px;
+  color: #3a7bd5;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-branding p {
+  font-size: 14.5px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.footer-links h4,
+.footer-contact h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer-links a:hover {
+  color: #3a7bd5;
+  text-decoration: underline;
+}
+
+.footer-contact p {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+  margin-top: 50px;
+}
+
+.footer-bottom hr {
+  margin-bottom: 12px;
+}

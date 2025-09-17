@@ -1,0 +1,60 @@
+.services-container {
+  padding: 60px 20px;
+  text-align: center;
+  background: #f9fafc;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.services-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.services-subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.service-card {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.service-card h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.service-card p {
+  font-size: 15px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.services-footer-btn {
+  margin-top: 40px;
+}

@@ -34,7 +34,7 @@ An end-to-end medical diagnostic web application powered by Machine Learning, Dj
 - Django REST Framework (DRF) – API development
 - SimpleJWT – Authentication & authorization (JWT-based)
   
-3. Machine Learning / AI
+3. Machine Learning 
 - TensorFlow / Keras – Deep learning models for Pneumonia & Retinopathy
 - Scikit-learn – ML model for Heart Disease prediction
 - NumPy / Pandas – Data processing

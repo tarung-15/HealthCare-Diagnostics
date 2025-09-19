@@ -14,7 +14,7 @@ An end-to-end medical diagnostic web application powered by Machine Learning, Dj
 
 ---
 
-##Features
+## Features
 
 - User Authentication: Secure login & signup with JWT.
 

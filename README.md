@@ -22,3 +22,24 @@ An end-to-end medical diagnostic web application powered by Machine Learning, Dj
 - Prediction Reports: Download diagnosis as PDF.
 - Doctor Support: Contact doctor button for urgent cases.
 - Modern UI: Responsive React frontend
+
+## Tech Stack
+1. Frontend
+- React.js – User interface
+- React Router – Navigation and routing
+- Axios – API communication
+  
+2. Backend
+- Django – Web framework
+- Django REST Framework (DRF) – API development
+- SimpleJWT – Authentication & authorization (JWT-based)
+  
+3. Machine Learning / AI
+- TensorFlow / Keras – Deep learning models for Pneumonia & Retinopathy
+- Scikit-learn – ML model for Heart Disease prediction
+- NumPy / Pandas – Data processing
+- OpenCV / Pillow – Image preprocessing (if used for X-ray/retina scans)
+
+4. Other Tools
+- Python Virtual Environment (venv) – Dependency management
+- npm / Node.js – Frontend package management

@@ -57,11 +57,19 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
-# frontend
-install node, npm
+# Backend API will be running at:
+# http://127.0.0.1:8000/api/
+# frontend(install node, npm)
 cd ../frontend
 npm install
 npm run dev
-
-
+# Configure Environment Variables
+# Backend (backend/.env)
+SECRET_KEY=your_django_secret_key
+DEBUG=True
+ALLOWED_HOSTS=*
+# Frontend (frontend/.env)
+VITE_API_BASE_URL=http://127.0.0.1:8000/api
+# Accessing the System
+# Open frontend: http://localhost:5173
 

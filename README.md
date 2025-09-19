@@ -43,3 +43,25 @@ An end-to-end medical diagnostic web application powered by Machine Learning, Dj
 4. Other Tools
 - Python Virtual Environment (venv) – Dependency management
 - npm / Node.js – Frontend package management
+
+##  Setup Instructions  
+Follow the steps below to set up the project on your local machine.
+```bash
+git clone https://github.com/tarung-15/Medical-Diagnostics.git
+cd medical_diagnosis
+cd backend
+python -m venv .venv
+.venv\Scripts\activate #(windows)
+# source .venv/bin/activate (Linux/Mac)
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+# frontend
+install node, npm
+cd ../frontend
+npm install
+npm run dev
+
+
+

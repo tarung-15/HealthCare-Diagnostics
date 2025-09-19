@@ -4,7 +4,7 @@ An end-to-end medical diagnostic web application powered by Machine Learning, Dj
 - Diabetic Retinopathy Detection (CNN model on retinal images)
 - Heart Disease Prediction (ML model on patient health data)
 
-##  Comparison of All Models
+##  Brief of All Models
 
 | Task                   | Model          | Algorithm               | Input Type              | Output Classes              |
 |------------------------|----------------|-------------------------|-------------------------|-----------------------------|
@@ -13,3 +13,19 @@ An end-to-end medical diagnostic web application powered by Machine Learning, Dj
 | Heart Disease          | RandomForest   | Ensemble (Trees)        | Tabular CSV Data        | 0 = No Disease, 1 = Disease |
 
 ---
+
+##Features
+
+- User Authentication: Secure login & signup with JWT.
+
+- Pneumonia Detection: Upload chest X-ray and get real-time prediction.
+
+- Diabetic Retinopathy Detection: Upload retinal scan and view disease stage with confidence score.
+
+- Heart Disease Prediction: Fill patient parameters (age, cholesterol, BP, etc.) and get risk prediction.
+
+- Prediction Reports: Download diagnosis as PDF.
+
+- Doctor Support: Contact doctor button for urgent cases.
+
+- Modern UI: Responsive React frontend

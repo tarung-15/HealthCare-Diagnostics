@@ -15,17 +15,10 @@ An end-to-end medical diagnostic web application powered by Machine Learning, Dj
 ---
 
 ## Features
-
 - User Authentication: Secure login & signup with JWT.
-
 - Pneumonia Detection: Upload chest X-ray and get real-time prediction.
-
 - Diabetic Retinopathy Detection: Upload retinal scan and view disease stage with confidence score.
-
 - Heart Disease Prediction: Fill patient parameters (age, cholesterol, BP, etc.) and get risk prediction.
-
 - Prediction Reports: Download diagnosis as PDF.
-
 - Doctor Support: Contact doctor button for urgent cases.
-
 - Modern UI: Responsive React frontend

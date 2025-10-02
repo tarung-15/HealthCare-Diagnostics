@@ -4,6 +4,7 @@ An end-to-end medical diagnostic web application powered by Machine Learning, Dj
 - Diabetic Retinopathy Detection (CNN model on retinal images)
 - Heart Disease Prediction (ML model on patient health data)
 
+### you can get datasets from https://www.kaggle.com/
 ##  Brief of All Models
 
 | Task                   | Model          | Algorithm               | Input Type              | Output Classes              |
